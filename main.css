@@ -10,13 +10,21 @@ body {
     
   }
 
-  .container > div {
+   .container div {
     background-color: gray;
     width: 100px;
     margin: 10px;
     text-align: center;
     line-height: 30px;
     font-size: 30px;
+    box-shadow: 0px 0px;
+    transition: box-shadow ease-in 10s;
+
+  }
+   .container div :hover {
+    
+      box-shadow: 5px 10px 8px #010000;
+  
   }
   #a{
       flex :1;
